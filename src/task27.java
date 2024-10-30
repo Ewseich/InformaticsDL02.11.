@@ -10,7 +10,7 @@ public class task27 {
         int b = sc.nextInt();
         int bb = b;
         while (a * b != 0) {
-            int s = Math.min(a,b);
+            int s = Math.min(a,b); //используйте алгоритм с урока, а не мой, пж
             b = Math.max(a,b) % Math.min(a,b);
             a = Math.abs(s);
         }
