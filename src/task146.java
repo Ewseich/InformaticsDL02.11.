@@ -11,7 +11,7 @@ public class task146 {
         int znam = b * d;
         int znam1 = b * d;
         while (chisl * znam != 0) {
-            int s = Math.min(chisl,znam);
+            int s = Math.min(chisl,znam); //используйте алг с урока
             znam = Math.max(chisl,znam) % Math.min(chisl,znam);
             chisl = Math.abs(s);
         }
