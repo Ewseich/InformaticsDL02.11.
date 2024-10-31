@@ -17,7 +17,7 @@ public class task112214 {
             n /= 10;
         }
         if (yes == 0) {
-            System.out.println("NO");
+            System.out.println("NO");//такой иф можно запихать в одну строчку разными способами
         }
     }
 }
