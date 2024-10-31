@@ -7,7 +7,7 @@ public class task1422 {
         long k = sc.nextInt();
         long kk = k;
         while (n * k != 0) {
-            long s = Math.min(n, k);
+            long s = Math.min(n, k);//используйте алгоритм с урока, а не мой
             n = Math.max(n, k) % Math.min(n, k);
             k = Math.abs(s);
         }
