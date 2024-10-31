@@ -22,7 +22,7 @@ public class task112211 {
             step = 1;
         }
         if (kol == 0) {
-            System.out.println(-1);
+            System.out.println(-1);//такой иф можно запихать в одну строчку разными способами
         }
     }
 }
