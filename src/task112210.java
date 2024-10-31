@@ -12,7 +12,7 @@ public class task112210 {
             i1 = i;
             while (i1 > 0) {
                 i1 /= 10;
-                len++;
+                len++;//попробуйте использовать типа += или по другому увеливать переменную
             }
             i1 = i;
             while (i1 > 0) {
@@ -27,7 +27,7 @@ public class task112210 {
             len = 0;
         }
         if (kol <= 0) {
-            System.out.println(-1);
+            System.out.println(-1);//такой иф можно запихать в одну строчку разными способами
         }
     }
 }
