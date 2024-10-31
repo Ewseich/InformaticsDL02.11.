@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//измените переменную
 
 import static java.lang.System.exit;
 

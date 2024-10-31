@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Scanner;//измените переменную
 public class task1422 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
